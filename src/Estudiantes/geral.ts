@@ -51,7 +51,7 @@ export const geral: Integrante = {
         "Portafolio web interactivo, donde puedes explorar el curriculum y portafolio de cada integrante. Con enfoque en accesibilidad y optimización para una experiencia de navegación rápida y fluida.",
       tecnologias: ["HTML", "REACT", "CSS", "TypeScript"],
       rol: "Rol de Gerald: Arquitectura visual",
-      imagen: "src/assets/Imagenes/Proyecto portafolio1.png ",
+      imagen: "https://res.cloudinary.com/dqqnhxhcp/image/upload/v1772858724/asada/avisos/PILANGOSTA/Screenshot_2026-03-06_195534.png",
       altImagen: "Inicio del portafolio",
       urlRepo: "https://github.com/ROSHIII96/web-portafolio-2026.git",
       urlDemo: "https://web-portafolio-2026.vercel.app/",
