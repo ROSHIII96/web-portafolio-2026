@@ -84,7 +84,7 @@ function App() {
         </nav>
 
         <div className="hero-content">
-          <p className="eyebrow">Laboratorio 01 | Curriculum y Portafolio</p>
+          <p className="eyebrow">Laboratorio 01</p>
           <h1>Portafolio Web de Equipo</h1>
           <p>
             Selecciona un perfil para ver el curriculum y portafolio individual
@@ -280,7 +280,7 @@ function App() {
 
       <footer className="footer">
         <p>
-          {anioActual} - Portafolio academico en equipo. Reemplazar links de proyecto en <code>src/App.tsx</code>.
+          {anioActual} - GERALD ALVAREZ y JOSETH VARGAS.
         </p>
       </footer>
     </div>
