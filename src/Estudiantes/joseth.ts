@@ -52,7 +52,8 @@ export const joseth: Integrante = {
         "Juego de memoria desarrollado con React + Vite, que permite la participación de hasta 4 jugadores simultáneamente. Se conecta a un backend mediante SignalR para gestionar la interacción en tiempo real y ofrecer una experiencia multijugador fluida.",
       tecnologias: ["React + Vite", "Node.js", "SignalR"],
       rol: "Rol: Implementacion del frontend para mostrar las estadisticas del juego.",
-      imagen: "src/assets/Imagenes/Proyecto juego de memoria.png",
+      imagen:
+        "https://res.cloudinary.com/dqqnhxhcp/image/upload/v1772858755/asada/avisos/PILANGOSTA/Screenshot_2026-03-06_201200.png",
       altImagen: "Plataforma de cursos creada por Joseth",
       urlRepo: "https://github.com/Jhonpy22/Proy_Paradig_Front.git",
       urlDemo: "Corrido localmente en http://localhost:3000",
@@ -63,7 +64,8 @@ export const joseth: Integrante = {
         "Aplicación frontend desarrollada con React + Vite que simula una tienda de artículos electrónicos. Permite comprar productos y actualizar su cantidad en tiempo real, integrándose con múltiples backend para reflejar cambios en la base de datos y recibir respuestas dinámicas.",
       tecnologias: ["React + Vite", "Tailwindcss"],
       rol: "Rol: Diseño de interfaz y desarrollo frontend.",
-      imagen: "src/assets/Imagenes/CyberNova.png",
+      imagen:
+        "https://res.cloudinary.com/dqqnhxhcp/image/upload/v1772858778/asada/avisos/PILANGOSTA/Screenshot_2026-03-06_214529.png",
       altImagen: "Tienda de articulos electronicos creada por Joseth",
       urlRepo: "https://github.com/Jhonpy22/Proyec_Front_II.git",
       urlDemo: "Corrido localmente en http://localhost:3000",
