@@ -27,7 +27,8 @@ export const geral: Integrante = {
         "Aplicacion web para gestionar compras y ventas de tickets. Incluye autenticacion, confirmaciones por correo. Gerald se encargo de el backend, componentes y validaciones del lado del cliente y administrador.",
       tecnologias: ["React", "TypeScript", "MYSQL"],
       rol: "Rol de Gerald: Diseno de interfaz y desarrollo Backend.",
-      imagen: "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/zendeskticketingsystemsoftware.png",
+      imagen:
+        "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/zendeskticketingsystemsoftware.png",
       altImagen: "Proyecto de tickets de Gerald",
       urlRepo: "https://github.com/JasonReyesOcampos/sistema-tickets.git",
       urlDemo: "Corrido localmente en http://localhost:3000",
@@ -38,7 +39,8 @@ export const geral: Integrante = {
         "Sistema de gestion para ASADA PILANGOSTA, incluye panel de control para monitoreo de gestion, facturacion y reportes.",
       tecnologias: ["React", "NestJS", "MySQL"],
       rol: "Rol de Gerald: Fullstack",
-      imagen: "https://geraldalvarez1209.github.io/logo-email/WhatsApp%20Image%202025-09-25%20at%208.38.52%20PM.jpeg",
+      imagen:
+        "https://geraldalvarez1209.github.io/logo-email/WhatsApp%20Image%202025-09-25%20at%208.38.52%20PM.jpeg",
       altImagen: "ASADA PILANGOSTA",
       urlRepo: "https://github.com/ROSHIII96/ASADA-Pilangosta-Frontend.git",
       urlDemo: "http://72.62.202.87/",
@@ -49,9 +51,11 @@ export const geral: Integrante = {
         "Portafolio web interactivo, donde puedes explorar el curriculum y portafolio de cada integrante. Con enfoque en accesibilidad y optimización para una experiencia de navegación rápida y fluida.",
       tecnologias: ["HTML", "REACT", "CSS", "TypeScript"],
       rol: "Rol de Gerald: Arquitectura visual",
-      imagen: "https://placehold.co/600x360/028090/f7f7f2?text=Gerald+Proyecto+3",
+      imagen:
+        "https://placehold.co/600x360/028090/f7f7f2?text=Gerald+Proyecto+3",
       altImagen: "Inicio del portafolio",
-      urlRepo: "https://drive.google.com/file/d/1tfRoeppayUi64TY19aOLJ20Q2tarbBQg/view?usp=sharing",
+      urlRepo:
+        "https://drive.google.com/file/d/1tfRoeppayUi64TY19aOLJ20Q2tarbBQg/view?usp=sharing",
       urlDemo: "https://web-portafolio-2026.vercel.app/",
     },
   ],

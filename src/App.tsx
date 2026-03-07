@@ -2,8 +2,8 @@ import { useState } from "react";
 import type { FormEvent } from "react";
 import "./App.css";
 import type { Integrante } from "./types";
-import { geral } from "./Nombres/geral";
-import { joseth } from "./Nombres/joseth";
+import { geral } from "./Estudiantes/geral";
+import { joseth } from "./Estudiantes/joseth";
 
 const integrantes: Integrante[] = [geral, joseth];
 
@@ -66,7 +66,9 @@ function App() {
       return;
     }
 
-    setEstadoContacto("Mensaje enviado correctamente. Te responderemos pronto.");
+    setEstadoContacto(
+      "Mensaje enviado correctamente. Te responderemos pronto.",
+    );
     setDatosContacto({ nombre: "", correo: "", mensaje: "" });
   };
 
@@ -91,7 +93,11 @@ function App() {
             de cada integrante. Cada seccion se actualiza automaticamente segun
             la persona elegida.
           </p>
-          <div className="profile-switcher" role="tablist" aria-label="Perfiles">
+          <div
+            className="profile-switcher"
+            role="tablist"
+            aria-label="Perfiles"
+          >
             {integrantes.map((miembro, index) => {
               const estaActivo = index === indiceIntegranteActivo;
               return (
@@ -134,7 +140,11 @@ function App() {
           </div>
         </section>
 
-        <section className="section" id="educacion" aria-labelledby="educacion-titulo">
+        <section
+          className="section"
+          id="educacion"
+          aria-labelledby="educacion-titulo"
+        >
           <h2 id="educacion-titulo">Educacion</h2>
           <div className="single-view-grid">
             <article className="info-card">
@@ -149,7 +159,11 @@ function App() {
           </div>
         </section>
 
-        <section className="section" id="habilidades" aria-labelledby="habilidades-titulo">
+        <section
+          className="section"
+          id="habilidades"
+          aria-labelledby="habilidades-titulo"
+        >
           <h2 id="habilidades-titulo">Habilidades</h2>
           <div className="single-view-grid">
             <article className="info-card">
@@ -165,10 +179,16 @@ function App() {
           </div>
         </section>
 
-        <section className="section" id="idiomas" aria-labelledby="idiomas-titulo">
+        <section
+          className="section"
+          id="idiomas"
+          aria-labelledby="idiomas-titulo"
+        >
           <h2 id="idiomas-titulo">Idiomas</h2>
           <table className="languages-table">
-            <caption>Dominio de idiomas de {integranteActivo.nombreCorto}</caption>
+            <caption>
+              Dominio de idiomas de {integranteActivo.nombreCorto}
+            </caption>
             <thead>
               <tr>
                 <th>Integrante</th>
@@ -184,7 +204,11 @@ function App() {
           </table>
         </section>
 
-        <section className="section" id="experiencia-laboral" aria-labelledby="experiencia-titulo">
+        <section
+          className="section"
+          id="experiencia-laboral"
+          aria-labelledby="experiencia-titulo"
+        >
           <h2 id="experiencia-titulo">Experiencia laboral</h2>
           <div className="single-view-grid">
             <article className="info-card">
@@ -199,8 +223,14 @@ function App() {
           </div>
         </section>
 
-        <section className="section" id="portafolio" aria-labelledby="portafolio-titulo">
-          <h2 id="portafolio-titulo">Portafolio de {integranteActivo.nombreCorto}</h2>
+        <section
+          className="section"
+          id="portafolio"
+          aria-labelledby="portafolio-titulo"
+        >
+          <h2 id="portafolio-titulo">
+            Portafolio de {integranteActivo.nombreCorto}
+          </h2>
           <div className="projects-grid">
             {integranteActivo.proyectos.map((proyecto, index) => {
               const estaExpandido = proyectoExpandido === index;
@@ -217,10 +247,18 @@ function App() {
 
                     {estaExpandido && (
                       <div className="project-links" aria-live="polite">
-                        <a href={proyecto.urlRepo} target="_blank" rel="noreferrer">
+                        <a
+                          href={proyecto.urlRepo}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Ver repositorio
                         </a>
-                        <a href={proyecto.urlDemo} target="_blank" rel="noreferrer">
+                        <a
+                          href={proyecto.urlDemo}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Ver demo
                         </a>
                       </div>
@@ -229,7 +267,9 @@ function App() {
                     <button
                       type="button"
                       className="details-btn"
-                      onClick={() => setProyectoExpandido(estaExpandido ? null : index)}
+                      onClick={() =>
+                        setProyectoExpandido(estaExpandido ? null : index)
+                      }
                     >
                       {estaExpandido ? "Ocultar detalles" : "Ver mas detalles"}
                     </button>
@@ -240,7 +280,11 @@ function App() {
           </div>
         </section>
 
-        <section className="section" id="contacto" aria-labelledby="contacto-titulo">
+        <section
+          className="section"
+          id="contacto"
+          aria-labelledby="contacto-titulo"
+        >
           <h2 id="contacto-titulo">Formulario de contacto</h2>
           <form className="contact-form" onSubmit={enviarFormulario} noValidate>
             <label htmlFor="nombre">Nombre</label>
@@ -248,7 +292,9 @@ function App() {
               id="nombre"
               type="text"
               value={datosContacto.nombre}
-              onChange={(event) => actualizarCampoContacto("nombre", event.target.value)}
+              onChange={(event) =>
+                actualizarCampoContacto("nombre", event.target.value)
+              }
               placeholder="Escribe tu nombre"
             />
 
@@ -257,7 +303,9 @@ function App() {
               id="correo"
               type="email"
               value={datosContacto.correo}
-              onChange={(event) => actualizarCampoContacto("correo", event.target.value)}
+              onChange={(event) =>
+                actualizarCampoContacto("correo", event.target.value)
+              }
               placeholder="nombre@correo.com"
             />
 
@@ -265,7 +313,9 @@ function App() {
             <textarea
               id="mensaje"
               value={datosContacto.mensaje}
-              onChange={(event) => actualizarCampoContacto("mensaje", event.target.value)}
+              onChange={(event) =>
+                actualizarCampoContacto("mensaje", event.target.value)
+              }
               placeholder="Deja un mensaje breve"
               rows={5}
             />
@@ -279,9 +329,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>
-          {anioActual} - GERALD ALVAREZ y JOSETH VARGAS.
-        </p>
+        <p>{anioActual} - GERALD ALVAREZ y JOSETH VARGAS.</p>
       </footer>
     </div>
   );
