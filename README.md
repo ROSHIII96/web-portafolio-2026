@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# Laboratorio 01 - Sitio Web de Curriculum y Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web academico para presentar el curriculum y portafolio de **dos integrantes** en una sola landing page.
 
-Currently, two official plugins are available:
+## Integrantes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Integrante 1: Cambiar nombre
+- Integrante 2: Cambiar nombre
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- React + TypeScript + Vite
+- CSS externo (responsive con Grid/Flexbox)
+- JavaScript (interacciones dinamicas)
 
-## Expanding the ESLint configuration
+## Secciones implementadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Inicio / Presentacion del equipo
+- Educacion y experiencia
+- Habilidades tecnicas
+- Idiomas
+- Portafolio de proyectos (3 proyectos)
+- Formulario de contacto
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## Interacciones dinamicas incluidas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Boton para alternar modo claro/oscuro
+- Formulario de contacto con validacion
+- Tarjetas de proyecto con hover y boton para mostrar/ocultar detalles
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+## Enlaces (editar)
+
+Cambiar estos enlaces por los reales de su equipo:
+
+- Repositorio proyecto 1: `https://github.com/USUARIO/REPOSITORIO-PROYECTO-1`
+- Repositorio proyecto 2: `https://github.com/USUARIO/REPOSITORIO-PROYECTO-2`
+- Repositorio proyecto 3: `https://github.com/USUARIO/REPOSITORIO-PROYECTO-3`
+- Deploy proyecto 1: `https://TU-DEPLOY-PROYECTO-1.com`
+- Deploy proyecto 2: `https://TU-DEPLOY-PROYECTO-2.com`
+- Deploy proyecto 3: `https://TU-DEPLOY-PROYECTO-3.com`
+
+## Ejecucion local
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Build de produccion
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+npm run build
 ```
