@@ -1,5 +1,6 @@
 import type { Integrante } from "../types";
 
+//Toda la informacion del integrante Gerald se encuentra a continuacion.
 export const geral: Integrante = {
   nombre: "Gerald Alvarez Leiton",
   nombreCorto: "Gerald",

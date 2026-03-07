@@ -5,6 +5,7 @@ import type { Integrante } from "./types";
 import { geral } from "./Estudiantes/geral";
 import { joseth } from "./Estudiantes/joseth";
 
+//perfiles disponibles
 const integrantes: Integrante[] = [geral, joseth];
 
 function App() {
@@ -23,20 +24,25 @@ function App() {
   const anioActual = new Date().getFullYear();
   const integranteActivo = integrantes[indiceIntegranteActivo];
 
+  //Funcion para cambiar el tema de oscuro a claro y viceversa.
   const cambiarTema = () => {
     setModoOscuro((prev) => {
       const nextTheme = !prev;
+      //cambia el el atributo para que el css pueda aplicar los estilos correspondientes a cada tema.
       document.body.dataset.theme = nextTheme ? "dark" : "light";
       return nextTheme;
     });
   };
 
+  //Funcion para cambiar entre los dos perfiles
   const cambiarPerfil = (indicePerfil: number) => {
     setIndiceIntegranteActivo(indicePerfil);
+    //Cierra el proyecto expandido y resetea el estado del formulario
     setProyectoExpandido(null);
     setEstadoContacto("");
   };
 
+  //Funcion para actualizar los campos del formulario de contacto
   const actualizarCampoContacto = (
     campo: "nombre" | "correo" | "mensaje",
     valor: string,

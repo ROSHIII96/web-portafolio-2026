@@ -1,5 +1,6 @@
 import type { Integrante } from "../types";
 
+//Toda la informacion del integrante Joseth Vargas se encuentra a continuacion.
 export const joseth: Integrante = {
   nombre: "Joseth Manuel Vargas Venegas",
   nombreCorto: "Joseth",
