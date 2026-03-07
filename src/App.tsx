@@ -220,9 +220,13 @@ function App() {
                         <a href={proyecto.urlRepo} target="_blank" rel="noreferrer">
                           Ver repositorio
                         </a>
-                        <a href={proyecto.urlDemo} target="_blank" rel="noreferrer">
-                          Ver demo
-                        </a>
+                        {proyecto.urlDemo ? (
+                          <a href={proyecto.urlDemo} target="_blank" rel="noreferrer">
+                            Ver demo
+                          </a>
+                        ) : (
+                          <span className="demo-unavailable">Demo no disponible (solo local)</span>
+                        )}
                       </div>
                     )}
 

@@ -30,7 +30,7 @@ export const geral: Integrante = {
       imagen: "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/zendeskticketingsystemsoftware.png",
       altImagen: "Proyecto de tickets de Gerald",
       urlRepo: "https://github.com/JasonReyesOcampos/sistema-tickets.git",
-      urlDemo: "Corrido localmente en http://localhost:3000",
+      urlDemo: "",
     },
     {
       titulo: "Proyecto Gerald 2 - ASADA PILANGOSTA",
