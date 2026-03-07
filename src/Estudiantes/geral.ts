@@ -1,7 +1,7 @@
 import type { Integrante } from "../types";
 
 export const geral: Integrante = {
-  nombre: "Gerald Alvarez",
+  nombre: "Gerald Alvarez Leiton",
   nombreCorto: "Gerald",
   rol: "Estudiante de Ingenieria en Sistemas",
   biografia:
@@ -51,11 +51,9 @@ export const geral: Integrante = {
         "Portafolio web interactivo, donde puedes explorar el curriculum y portafolio de cada integrante. Con enfoque en accesibilidad y optimización para una experiencia de navegación rápida y fluida.",
       tecnologias: ["HTML", "REACT", "CSS", "TypeScript"],
       rol: "Rol de Gerald: Arquitectura visual",
-      imagen:
-        "https://placehold.co/600x360/028090/f7f7f2?text=Gerald+Proyecto+3",
+      imagen: "src/assets/Imagenes/Proyecto portafolio1.png ",
       altImagen: "Inicio del portafolio",
-      urlRepo:
-        "https://drive.google.com/file/d/1tfRoeppayUi64TY19aOLJ20Q2tarbBQg/view?usp=sharing",
+      urlRepo: "https://github.com/ROSHIII96/web-portafolio-2026.git",
       urlDemo: "https://web-portafolio-2026.vercel.app/",
     },
   ],

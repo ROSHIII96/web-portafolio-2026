@@ -86,12 +86,10 @@ function App() {
         </nav>
 
         <div className="hero-content">
-          <p className="eyebrow">Laboratorio 01</p>
           <h1>Portafolio Web de Equipo</h1>
           <p>
             Selecciona un perfil para ver el curriculum y portafolio individual
-            de cada integrante. Cada seccion se actualiza automaticamente segun
-            la persona elegida.
+            de cada integrante del equipo.
           </p>
           <div
             className="profile-switcher"
@@ -125,7 +123,7 @@ function App() {
 
       <main>
         <section className="section" aria-labelledby="presentacion-titulo">
-          <h2 id="presentacion-titulo">Inicio / Presentacion</h2>
+          <h2 id="presentacion-titulo"> Presentación</h2>
           <div className="single-view-grid">
             <article className="member-card">
               <h3>{integranteActivo.nombre}</h3>
@@ -145,11 +143,10 @@ function App() {
           id="educacion"
           aria-labelledby="educacion-titulo"
         >
-          <h2 id="educacion-titulo">Educacion</h2>
+          <h2 id="educacion-titulo">Educación</h2>
           <div className="single-view-grid">
             <article className="info-card">
-              <h3>{integranteActivo.nombre}</h3>
-              <h4>Formacion academica</h4>
+              <h4>Formación académica</h4>
               <ul>
                 {integranteActivo.educacion.map((item) => (
                   <li key={item}>{item}</li>
@@ -167,7 +164,6 @@ function App() {
           <h2 id="habilidades-titulo">Habilidades</h2>
           <div className="single-view-grid">
             <article className="info-card">
-              <h3>{integranteActivo.nombre}</h3>
               <div className="badge-list">
                 {integranteActivo.habilidades.map((habilidad) => (
                   <span key={habilidad} className="badge">
@@ -185,23 +181,15 @@ function App() {
           aria-labelledby="idiomas-titulo"
         >
           <h2 id="idiomas-titulo">Idiomas</h2>
-          <table className="languages-table">
-            <caption>
-              Dominio de idiomas de {integranteActivo.nombreCorto}
-            </caption>
-            <thead>
-              <tr>
-                <th>Integrante</th>
-                <th>Idiomas</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>{integranteActivo.nombre}</td>
-                <td>{integranteActivo.idiomas.join(" | ")}</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="single-view-grid">
+            <article className="info-card">
+              <ul>
+                {integranteActivo.idiomas.map((idioma) => (
+                  <li key={idioma}>{idioma}</li>
+                ))}
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section
@@ -212,7 +200,6 @@ function App() {
           <h2 id="experiencia-titulo">Experiencia laboral</h2>
           <div className="single-view-grid">
             <article className="info-card">
-              <h3>{integranteActivo.nombre}</h3>
               <h4>Experiencia relevante</h4>
               <ul>
                 {integranteActivo.experiencia.map((item) => (
