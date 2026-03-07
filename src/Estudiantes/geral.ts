@@ -6,7 +6,7 @@ export const geral: Integrante = {
   nombreCorto: "Gerald",
   rol: "Estudiante de Ingenieria en Sistemas",
   biografia:
-    "Interesado en desarrollo frontend y diseno de interfaces accesibles. Participa en proyectos academicos enfocados en soluciones web para pequenas organizaciones.",
+    "Interesado en desarrollo frontend, backend y diseno de interfaces accesibles. Participa en proyectos academicos enfocados en soluciones web para organizaciones.",
   correo: "geraldalv9@gmail.com",
   telefono: "+506 6456-8177",
   ubicacion: "Costa Rica",
@@ -32,7 +32,7 @@ export const geral: Integrante = {
         "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/zendeskticketingsystemsoftware.png",
       altImagen: "Proyecto de tickets de Gerald",
       urlRepo: "https://github.com/JasonReyesOcampos/sistema-tickets.git",
-      urlDemo: "Corrido localmente en http://localhost:3000",
+      urlDemo: "",
     },
     {
       titulo: "Proyecto Gerald 2 - ASADA PILANGOSTA",

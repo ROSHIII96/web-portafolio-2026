@@ -1,53 +1,55 @@
-# Laboratorio 01 - Sitio Web de Curriculum y Portafolio
+# Portafolio Web de Equipo
 
-Sitio web academico para presentar el curriculum y portafolio de **dos integrantes** en una sola landing page.
+Aplicación web desarrollada con React + TypeScript + Vite que presenta el currículum y portafolio de los integrantes de un equipo de desarrollo.
 
-## Integrantes
+El sitio permite visualizar informacion profesional de cada integrante, incluyendo:
 
-- Integrante 1: Cambiar nombre
-- Integrante 2: Cambiar nombre
-
-## Tecnologias
-
-- React + TypeScript + Vite
-- CSS externo (responsive con Grid/Flexbox)
-- JavaScript (interacciones dinamicas)
-
-## Secciones implementadas
-
-- Inicio / Presentacion del equipo
-- Educacion y experiencia
+- Presentacion personal
+- Educacion
 - Habilidades tecnicas
 - Idiomas
-- Portafolio de proyectos (3 proyectos)
+- Experiencia laboral
+- Portafolio de proyectos
 - Formulario de contacto
 
-## Interacciones dinamicas incluidas
+El usuario puede cambiar dinamicamente entre perfiles, lo que actualiza automáticamente toda la información mostrada en la interfaz.
 
-- Boton para alternar modo claro/oscuro
-- Formulario de contacto con validacion
-- Tarjetas de proyecto con hover y boton para mostrar/ocultar detalles
+# Integrantes
 
-## Enlaces (editar)
+### Gerald Alvarez
+Estudiante de Ingeniería en Sistemas enfocado en desarrollo frontend y diseño de interfaces accesibles.
 
-Cambiar estos enlaces por los reales de su equipo:
+### Joseth Manuel Vargas Venegas
+Estudiante de Ingeniería en Sistemas con interés en el desarrollo de aplicaciones web y soluciones tecnológicas.
 
-- Repositorio proyecto 1: `https://github.com/USUARIO/REPOSITORIO-PROYECTO-1`
-- Repositorio proyecto 2: `https://github.com/USUARIO/REPOSITORIO-PROYECTO-2`
-- Repositorio proyecto 3: `https://github.com/USUARIO/REPOSITORIO-PROYECTO-3`
-- Deploy proyecto 1: `https://TU-DEPLOY-PROYECTO-1.com`
-- Deploy proyecto 2: `https://TU-DEPLOY-PROYECTO-2.com`
-- Deploy proyecto 3: `https://TU-DEPLOY-PROYECTO-3.com`
+# Tecnologías utilizadas
 
-## Ejecucion local
+- React
+- TypeScript
+- Vite
+- HTML
+- CSS
+- GitHub
 
-```bash
-npm install
-npm run dev
-```
+# Características principales
 
-## Build de produccion
+- Cambio dinamico entre perfiles  
+- Modo claro / oscuro  
+- Diseño responsive  
+- Portafolio interactivo  
+- Validacion de formulario de contacto  
+- Navegacion por secciones  
+- Animaciones y diseño moderno  
 
-```bash
-npm run build
-```
+
+# Vista del proyecto
+
+El sitio incluye las siguientes secciones
+
+- Inicio / Presentación / 2 perfiles
+- Educación
+- Habilidades
+- Idiomas
+- Experiencia laboral
+- Portafolio de proyectos
+- Contacto
