@@ -3,9 +3,9 @@ import type { Integrante } from "../types";
 export const joseth: Integrante = {
   nombre: "Joseth Manuel Vargas Venegas",
   nombreCorto: "Joseth",
-  rol: "Estudiante de Ingenieria en Sistemas",
+  rol: "Estudiante de Ingeniería en Sistemas",
   biografia:
-    "Soy estudiante de Ingeniería en Sistemas, apasionado por el aprendizaje continuo y el desarrollo de aplicaciones innovadoras. Me gusta crear soluciones que faciliten la vida de las personas y resuelvan problemas reales.",
+    "Soy estudiante de Ingeniería en Sistemas de la Universidad Nacional, apasionado por el aprendizaje continuo y el desarrollo de aplicaciones innovadoras. Me gusta crear soluciones que faciliten la vida de las personas y resuelvan problemas reales.",
   correo: "joseth.vargas.venegas@est.una.ac.cr",
   telefono: "+506 6226-5978",
   ubicacion: "Costa Rica, Guanacaste, Hojancha",
@@ -23,7 +23,7 @@ export const joseth: Integrante = {
     "CSS",
     "TypeScript",
     "MYSQL",
-    "React+Vite",
+    "React + Vite",
     "NestJs",
     "GitHub",
     "Scrum",
@@ -36,9 +36,9 @@ export const joseth: Integrante = {
     {
       titulo: "Proyecto ASADA Pilangosta",
       descripcion:
-        "Sistema de gestion para ASADA PILANGOSTA, incluye panel de control para monitoreo de gestion, facturacion y reportes..",
+        "Sistema de gestion diseñado para la ASADA PILANGOSTA, incluye panel de control para monitoreo de gestiones, facturacion y reportes.",
       tecnologias: ["Node.js", "React + Vite", "NestJs", "TypeORM", "MySQL"],
-      rol: "Full Stack, colaboracion en diseño de base de datos y QA.",
+      rol: "Rol: Full Stack, colaboracion en diseño de base de datos y QA.",
       imagen:
         "https://geraldalvarez1209.github.io/logo-email/WhatsApp%20Image%202025-09-25%20at%208.38.52%20PM.jpeg",
       altImagen: "Sistema de inventario desarrollado por Joseth",
@@ -46,26 +46,29 @@ export const joseth: Integrante = {
       urlDemo: "http://72.62.202.87/",
     },
     {
-      titulo: "Proyecto de Paradigmas de Programacion",
+      titulo:
+        "Proyecto de Paradigmas de Programacion - Juego de Memoria Multijugador",
       descripcion:
-        "Portal para publicar cursos, registrar estudiantes y visualizar progreso. Incluye panel administrativo, gestion de contenidos y control de roles por tipo de usuario.",
-      tecnologias: ["React", "Node.js", "PostgreSQL"],
-      rol: "Rol de Joseth: Integracion frontend-backend y pruebas funcionales.",
-      imagen: "src/assets/Imagenes/Proyecto juego de memoria.png",
+        "Juego de memoria desarrollado con React + Vite, que permite la participación de hasta 4 jugadores simultáneamente. Se conecta a un backend mediante SignalR para gestionar la interacción en tiempo real y ofrecer una experiencia multijugador fluida.",
+      tecnologias: ["React + Vite", "Node.js", "SignalR"],
+      rol: "Rol: Implementacion del frontend para mostrar las estadisticas del juego.",
+      imagen:
+        "https://res.cloudinary.com/dqqnhxhcp/image/upload/v1772858755/asada/avisos/PILANGOSTA/Screenshot_2026-03-06_201200.png",
       altImagen: "Plataforma de cursos creada por Joseth",
       urlRepo: "https://github.com/Jhonpy22/Proy_Paradig_Front.git",
-      urlDemo: "https://TU-DEPLOY-JOSETH-2.com",
+      urlDemo: "Corrido localmente en http://localhost:3000",
     },
     {
-      titulo: "Proyecto Joseth 3 - Control de Practicas",
+      titulo: "Proyecto Paradigmas de Programacion - CYBERNOVA",
       descripcion:
-        "Aplicacion para seguimiento de horas de practica profesional, evidencias y aprobaciones de tutores. Se agrego autenticacion y panel de seguimiento para estudiantes.",
-      tecnologias: ["TypeScript", "MongoDB", "Express"],
-      rol: "Rol de Joseth: Logica de negocio y seguridad basica.",
-      imagen: "src/assets/Imagenes/Proyecto portafolio1.png",
-      altImagen: "Sistema de control de practicas de Joseth",
-      urlRepo: "https://github.com/USUARIO/REPOSITORIO-JOSETH-3",
-      urlDemo: "https://web-portafolio-2026.vercel.app/",
+        "Aplicación frontend desarrollada con React + Vite que simula una tienda de artículos electrónicos. Permite comprar productos y actualizar su cantidad en tiempo real, integrándose con múltiples backend para reflejar cambios en la base de datos y recibir respuestas dinámicas.",
+      tecnologias: ["React + Vite", "Tailwindcss"],
+      rol: "Rol: Diseño de interfaz y desarrollo frontend.",
+      imagen:
+        "https://res.cloudinary.com/dqqnhxhcp/image/upload/v1772858778/asada/avisos/PILANGOSTA/Screenshot_2026-03-06_214529.png",
+      altImagen: "Tienda de articulos electronicos creada por Joseth",
+      urlRepo: "https://github.com/Jhonpy22/Proyec_Front_II.git",
+      urlDemo: "Corrido localmente en http://localhost:3000",
     },
   ],
 };
